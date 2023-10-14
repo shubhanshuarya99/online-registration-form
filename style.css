@@ -1,0 +1,53 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+.container{
+    max-width:80%;
+    /* background-color:rgb(172, 196, 196); */
+    padding :34px;
+    margin:auto;
+}
+.container h3,p{
+    text-align: center;
+}
+input,textarea{
+    background-color: rgb(229, 236, 203);
+    width:94%;
+    margin:12px; 
+    padding:4px;
+    font-size:14px;
+    border:2px solid black;
+    border-radius:10px;
+}
+h3{
+    font-size: 30px;
+    text-align: center;
+}
+p{
+    font-size:23px;
+}
+.submit {
+    color: green;
+    text-align: center;
+    font-style: italic;
+}
+.btn{
+    color:white;
+    background:red;
+    padding:2px 12px;
+    font-size:20px;
+    border:2px solid white;
+    border-radius:14px;
+    cursor:pointer;
+    margin:10px;
+}
+.dtu{
+    
+    height:100%;
+    width:100%;
+    position:absolute;
+    z-index:-1;
+    opacity:0.6
+}
